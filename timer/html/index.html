@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="main_content">
+            <span id="timer">00:00:00s</span>
+            <div class="circles" id="circles">
+        
+            </div>
+            <div class="controls">
+                <div class="control" id="f_controls">
+                    <button class="start" id="start" onclick="start()"><img src="../resources/play.png" alt=""></button>
+                    <button class="reset" id="reset" onclick="reset_timer()"><img src="../resources/refresh-ccw.png" alt=""></button>
+                </div>
+                <div class="control" id="s_controls">
+                    <button class="pause" id="pause" onclick="pause()"><img src="../resources/pause.png" alt=""></button>
+                    <button class="flag" id="flag" onclick="flag()"><img src="../resources/flag.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js" type="text/javascript"></script>
+</body>
+</html>
